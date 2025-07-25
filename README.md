@@ -2,7 +2,7 @@
 
 **FixFB2Pics** is a command-line utility for cleaning and normalizing `<binary>` image tags in [FictionBook2 (FB2)](https://en.wikipedia.org/wiki/FictionBook) files.
 
-It detects embedded images (PNG, GIF, WebP, BMP, TGA, etc.), and automatically converts unsupported formats to JPEG with configurable background handling.
+It detects embedded images (GIF, WebP, BMP, TGA, etc.), and automatically converts unsupported formats to JPEG with configurable background handling.
 
 ---
 
@@ -42,15 +42,15 @@ You can find compiled versions in the [Releases section](../../releases).
 
 ## 📃 License
 
-MIT License.
+[MIT License](https://github.com/sensboston/FixFB2Pics?tab=MIT-1-ov-file#readme)
 
 ---
 
-# 🇷🇺 Описание на русском
+# FixFB2Pics
 
 **FixFB2Pics** — это консольная утилита для очистки и нормализации изображений в тэгах `<binary>` файлов [FictionBook2 (FB2)](https://ru.wikipedia.org/wiki/FictionBook).
 
-Она определяет тип изображения (PNG, GIF, WebP, BMP, TGA и др.) и автоматически преобразует неподдерживаемые форматы в JPEG с возможностью настройки фонового цвета.
+Она определяет тип изображения (GIF, WebP, BMP, TGA и др.) и автоматически преобразует неподдерживаемые форматы в JPEG с возможностью настройки фонового цвета.
 
 ---
 
@@ -90,4 +90,4 @@ FixFB2Pics.exe роман.fb2 --background=#FAFAFA
 
 ## 📃 Лицензия
 
-MIT License.
+[MIT License](https://github.com/sensboston/FixFB2Pics?tab=MIT-1-ov-file#readme)
