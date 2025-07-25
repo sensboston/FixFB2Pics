@@ -63,7 +63,7 @@ jobs:
     - name: Build solution
       shell: powershell
       run: |
-        & "${{ steps.msbuild.outputs.msbuild_path }}" "${{ steps.find_files.outputs.solution_file }}" /p:Configuration=Release /p:Platform="AnyCPU"
+        & "${{ steps.msbuild.outputs.msbuild_path }}" "${{ steps.find_files.outputs.solution_file }}" /p:Configuration=Release /p:Platform="Any CPU"
 
     - name: Determine Output Executable Name and Type
       id: exe_info
