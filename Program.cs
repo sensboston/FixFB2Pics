@@ -148,7 +148,7 @@ namespace FixFB2Pics
 
         #region Native DLL Loading
 
-        private const string DllName = "Magick.Native-Q16-x64.dll";
+        private const string DllName = "Magick.Native-Q16-x86.dll";
         private static string ExtractedPath;
 
         [DllImport("kernel32", SetLastError = true)]
